@@ -79,10 +79,10 @@ class Graphics:
 
         outputName = QLineEdit(parent=self.window)
 
-        button = self.addButton("Submit", self.updateInfo, self.X, self.Y + 30 * (i + 1) )
+        button = self.addButton("Submit", self.updateInfo, self.X, self.Y + 30 * (len(fields) + 1) )
         button.show()
 
-        outputName.move(self.X + button.width() + 30, self.Y + 30 * (i + 1) )
+        outputName.move(self.X + button.width() + 30, self.Y + 30 * (len(fields) + 1) )
         outputName.resize(200, outputName.height() - 5)
         outputName.show()
 
