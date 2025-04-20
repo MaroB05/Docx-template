@@ -4,7 +4,7 @@ Fill in your Word document templates with a sleek GUI - because manually replaci
 
 ## Overview
 
-DocTemplator is a simple yet powerful tool that allows you to quickly fill out docx templates through a friendly user interface. No more manually hunting for placeholders - this app finds them all and presents them as a neat form for you to fill out.
+Docx Template is a simple yet powerful tool that allows you to quickly fill out docx templates through a friendly user interface. No more manually hunting for placeholders - this app finds them all and presents them as a neat form for you to fill out.
 
 Think of it as a document secretary that doesn't need coffee breaks or complain about papercuts.
 
@@ -35,8 +35,8 @@ Think of it as a document secretary that doesn't need coffee breaks or complain 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/doctemplator.git
-cd doctemplator
+git clone https://github.com/yourusername/Docx-template.git
+cd Docx-template
 
 # Install dependencies
 pip install PyQt6 spire.doc
@@ -60,7 +60,7 @@ For example, if your document contains `*Name*`, the application will create a f
 ## Directory Structure
 
 ```
-doctemplator/
+Docx-template/
 ├── data/           # Place your .docx templates here
 ├── output/         # Filled documents will be saved here
 ├── main.py         # The main application script
